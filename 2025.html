@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>شنطة طرحة|</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      content="A fully reposnsive christmas and new year coming soon template"
+      name="description"
+    />
+    <meta content="namratech" name="author" />
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom css -->
+    <link
+      href="css/style.css"
+      rel="stylesheet"
+      type="text/css"
+      id="app-style"
+    />
+  </head>
+
+  <body class="h-100 overflow-hidden bg-dark text-center">
+    <canvas id="canvas" class="position-absolute start-0"></canvas>
+
+    <div
+      class="d-flex min-vh-100 position-relative justify-content-center text-white align-items-center"
+    >
+      <div class="row g-0 justify-content-center w-100 m-xxl-5 px-xxl-4 m-3">
+        <div class="col-md-6">
+          <div class="py-xxl-4 py-3 mb-0">
+            <div>
+              <h3 class="fw-semibold mb-2 lh-base">
+                🎆عام سعيد عليكم ! 2025 🎉
+              </h3>
+              <h4 class="fw-semibold mb-2 lh-base">
+                انتظرواالافتتاح مع أفصل خصومات رأس السنة
+              </h4>
+              <p class="mb-0 text-white-50 fst-italic">
+                أحدث موديلات الشُنَط والطُرَح بتصاميم عصرية وجودة عالية تناسب
+                جميع إطلالاتك.
+              </p>
+            </div>
+            <div class="mb-4">
+              <a href="index.html">
+                <img
+                  src="images/bg/1.jpeg"
+                  alt="dark logo"
+                  height="400"
+                  class="logo"
+                />
+              </a>
+            </div>
+
+            <div
+              id="countdown"
+              class="countdown-timer mt-5 pt-4"
+              data-countdown-date="2025-01-01T12:00:01"
+            >
+              <div class="row justify-content-center my-4 g-2">
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                  <div class="p-2">
+                    <h1 data-days class="fw-bold display-3">00</h1>
+                    <p class="fw-medium text-uppercase mb-0">يوم</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                  <div class="p-2">
+                    <h1 data-hours class="fw-bold display-3">00</h1>
+                    <p class="fw-medium text-uppercase mb-0">ساعة</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                  <div class="p-2">
+                    <h1 data-minutes class="fw-bold display-3">00</h1>
+                    <p class="fw-medium text-uppercase mb-0">دقائق</p>
+                  </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 col-lg">
+                  <div class="p-2">
+                    <h1 data-seconds class="fw-bold display-3">00</h1>
+                    <p class="fw-medium text-uppercase mb-0">ثواني</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="end-message" class="countdown-end" style="display: none">
+              The event has started!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- js -->
+    <script src="js/coming-soon.js"></script>
+    <script src="js/fire-animation.js"></script>
+  </body>
+</html>
